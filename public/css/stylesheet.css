@@ -1,0 +1,107 @@
+body {
+	font-family: helvetica neue;
+	color:#666666;
+}
+
+.hspgp-center {
+    text-align: center;
+}
+
+.jumbotron h1 {
+	font-size: 40px;
+    color:#888888;
+    padding-top: 40px;
+}
+
+.hspgp-dim-button {
+    background-color: #555555;
+    border-color: #888888;
+}
+h2 {
+	font-size: 20px;
+    color:#888888;
+}
+
+h3 {
+	color:#000000;
+}
+
+td.recommend {
+	background-color:#66ccff;
+}
+
+.input-group, .classChoice {
+	-moz-box-shadow: 5px 5px 5px #c79f44;
+	box-shadow: 5px 5px 5px #c79f44;
+	border: 2px solid #635959;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.classChoice input {
+    font-size: 60%;
+}
+
+.input-group {
+
+}
+
+label, input[type="text"]{
+    float:left;
+    display:block;
+}
+label
+{
+    margin-right: 5px;
+    width: 150px;
+}
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.hspgp-space-up {
+    padding-top: 50px;
+}
+
+/* The following is for the landing page sign up form. This came from a Bootstrap sample. */
+.form-signin {
+    max-width: 700px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+    /*position: relative;*/
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    max-width: 330px;
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin button {
+    max-width: 330px;
+}
+
+.gaGridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 100%;
+    height: 600px
+}

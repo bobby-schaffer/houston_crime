@@ -6,6 +6,7 @@ var hpdCrimeApp = angular.module('hpdCrimeApp', [
     'ngRoute',
     'ngGrid',
     'ui.bootstrap',
+    'angularCharts',
     'hpdCrimeControllers'
 ]);
 

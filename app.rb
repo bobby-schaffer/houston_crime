@@ -22,7 +22,6 @@ class HoustonCrime < Sinatra::Base
     @conn.exec("DROP TABLE IF EXISTS crime;")
     @conn.exec("CREATE TABLE crime ( \
                 report_date date NOT NULL, \
-                area text NOT NULL, \
                 offense_date date, \
                 hour smallint, \
                 offense_type text, \
@@ -33,29 +32,28 @@ class HoustonCrime < Sinatra::Base
                 street_name text, \
                 street_type text, \
                 suffix text, \
-                number_of_offenses text, \
-                field11 text);");
+                number_of_offenses text);");
 
     loadFiles
   end
 
   def loadFiles
     connect if !@conn
-    @conn.prepare("insert_crime", "INSERT INTO crime (report_date, area, offense_date, hour, offense_type, beat, \
-        premise, block_start, block_end, street_name, street_type, suffix, number_of_offenses, field11) \
-        values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14);")
+    @conn.prepare("insert_crime", "INSERT INTO crime (report_date, offense_date, hour, offense_type, beat, \
+        premise, block_start, block_end, street_name, street_type, suffix, number_of_offenses) \
+        values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12);")
     Dir.glob('docs/**/*') do |f|
-      CSV.foreach(f) do |row|
+      doc = Spreadsheet.open (f)
+      sheet = doc.worksheet 0
+      sheet.each 1 do |row|
         next if row[5] == nil
         next if row[0] == "Date"
-
-        p row
 
         file_name = f.split('/')[1].split('.')[0]
         block_start, block_end = row[5].split('-')
 
-        @conn.exec_prepared("insert_crime", ["01-#{file_name[0..2]}-#{file_name[3..4]}", file_name[5..9],
-        row[0], row[1], row[2], row[3], row[4], block_start, block_end, row[6], row[7], row[8], row[9], row[10]])
+        @conn.exec_prepared("insert_crime", ["01-#{file_name[0..2]}-#{file_name[3..4]}",
+        row[0], row[1], row[2], row[3], row[4], block_start, block_end, row[6], row[7], row[8], row[9]])
       end
     end
   end
@@ -69,18 +67,43 @@ class HoustonCrime < Sinatra::Base
     return 'Success'
   end
 
-  get '/stats/historic/crimes/:area' do
+  get '/stats/historic/crimes/:beat' do
     connect if !@conn
-    events = Array.new
+    data = Hash.new
 
-    # SQL read
-    @conn.exec( "SELECT report_date, offense_type, count(*) FROM crime WHERE area='#{params[:area]}' GROUP BY report_date, offense_type" ) do |result|
-      result.each do |row|
-        p row
-        events.push row
-      end
+    # get all crime types in db
+    crime_types = Array.new
+    @conn.exec('SELECT offense_type FROM crime GROUP BY offense_type ORDER BY offense_type') do |result|
+      crime_types = result.values
     end
-    return events.to_json
+
+    p crime_types
+
+    # get stats for each type
+    crime_info = Hash.new
+    crime_types.each_index { |index|
+      @conn.exec( "SELECT report_date, count(*) FROM crime WHERE beat='#{params[:beat]}' AND offense_type='#{crime_types[index][0]}' GROUP BY report_date ORDER BY report_date" ) do |result|
+        result.each do |row|
+          crime_info[row["report_date"]] = Array.new if crime_info[row["report_date"]] == nil
+          crime_info[row["report_date"]][index] = row["count"]
+        end
+      end
+    }
+
+    data_value = Array.new
+    crime_info.each_pair {|date, values|
+      newVal = Hash.new
+      newVal['x'] = date
+      newVal['y'] = values
+      data_value.push(newVal)
+    }
+
+    data = {
+        'series'=> crime_types,
+        'data' => data_value
+    }
+
+    return data.to_json
   end
 
 

@@ -49,6 +49,7 @@ class HoustonCrime < Sinatra::Base
         next if row[5] == nil
         next if row[0] == "Date"
 
+        row[1] = 99 if row[1] == ""
         file_name = f.split('/')[1].split('.')[0]
         block_start, block_end = row[5].split('-')
 

@@ -35,3 +35,4 @@ build/
 .rvmrc
 
 # Application files only used locally
+Procfile

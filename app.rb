@@ -67,6 +67,11 @@ class HoustonCrime < Sinatra::Base
     return 'Success'
   end
 
+  get '/loadfiles' do
+    loadFiles
+    return 'Success'
+  end
+
   get '/stats/historic/crimes/:beat' do
     connect if !@conn
     data = Hash.new

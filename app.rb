@@ -78,24 +78,29 @@ class HoustonCrime < Sinatra::Base
     data = Hash.new
 
     # get all crime types in db
+=begin
     crime_types = Array.new
     @conn.exec('SELECT offense_type FROM crime GROUP BY offense_type ORDER BY offense_type') do |result|
       crime_types = result.values
     end
 
     p crime_types
+=end
 
+    crime_types = [["Aggravated Assault"], ["Auto Theft"], ["Burglary"], ["Murder"], ["Rape"], ["Robbery"], ["Theft"]]
     # get stats for each type
     crime_info = Hash.new
     crime_types.each_index { |index|
+      p crime_types[index]
       @conn.exec( "SELECT report_date, count(*) FROM crime WHERE beat='#{params[:beat]}' AND offense_type='#{crime_types[index][0]}' GROUP BY report_date ORDER BY report_date" ) do |result|
         result.each do |row|
           crime_info[row["report_date"]] = Array.new if crime_info[row["report_date"]] == nil
-          crime_info[row["report_date"]][index] = row["count"]
+          crime_info[row["report_date"]][index] = row["count"].to_i
         end
       end
     }
 
+    p 'processing'
     data_value = Array.new
     crime_info.each_pair {|date, values|
       newVal = Hash.new

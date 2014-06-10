@@ -20,10 +20,11 @@ hpdCrimeControllers.controller('mainCtrl', ['$scope', '$routeParams', '$http',
                 position: 'right'
             },
             innerRadius: 0, // applicable on pieCharts, can be a percentage like '50%'
+            xAxisMaxTicks: 5,
             lineLegend: 'lineEnd' // can be also 'traditional'
         };
 
-        $http.get('/stats/historic/crimes/15e20').success(function (data) {
+        $http.get('/stats/historic/crimes/15E20').success(function (data) {
             $scope.data = data;
         })
 

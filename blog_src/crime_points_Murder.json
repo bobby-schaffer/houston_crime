@@ -1,0 +1,1069 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3520265,
+          29.7636518
+        ]
+      },
+      "properties": {
+        "address": "1900 RUNNELS ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3866029,
+          29.70639
+        ]
+      },
+      "properties": {
+        "address": "2200 HOLCOMBE BLVD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.30285250000001,
+          29.73409839999999
+        ]
+      },
+      "properties": {
+        "address": "7000 CAPITOL ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.26970209999999,
+          29.69135
+        ]
+      },
+      "properties": {
+        "address": "8300 PARK PLACE BLVD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.29878099999999,
+          29.6896017
+        ]
+      },
+      "properties": {
+        "address": "5100 TELEPHONE ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3569368,
+          29.6734987
+        ]
+      },
+      "properties": {
+        "address": "7900 ROCK ROSE ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3379849,
+          29.6371941
+        ]
+      },
+      "properties": {
+        "address": "5600 SELINSKY RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.32745,
+          29.63554
+        ]
+      },
+      "properties": {
+        "address": "5900 SELINSKY RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3943134,
+          29.6889087
+        ]
+      },
+      "properties": {
+        "address": "2100 EL PASEO ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.42256839999999,
+          29.6341543
+        ]
+      },
+      "properties": {
+        "address": "3100 TIDEWATER ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5327659,
+          29.6765825
+        ]
+      },
+      "properties": {
+        "address": "8900 BISSONNET ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.50629029999999,
+          29.7386711
+        ]
+      },
+      "properties": {
+        "address": "7900 WESTHEIMER RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5080962,
+          29.7111101
+        ]
+      },
+      "properties": {
+        "address": "6900 SOUTHWEST FWY",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.523191,
+          29.7064115
+        ]
+      },
+      "properties": {
+        "address": "7800 HIAWATHA DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.56698209999999,
+          29.6918007
+        ]
+      },
+      "properties": {
+        "address": "8100 MAPLECREST DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1565952,
+          29.7756383
+        ]
+      },
+      "properties": {
+        "address": "3100 SAM HOUSTON PKWY",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5424196,
+          29.7144515
+        ]
+      },
+      "properties": {
+        "address": "9000 TOWN PARK DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38326269999999,
+          29.8699826
+        ]
+      },
+      "properties": {
+        "address": "200 LITTLE YORK RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.409598,
+          29.8631998
+        ]
+      },
+      "properties": {
+        "address": "600 GRANVILLE DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.454877,
+          29.871091
+        ]
+      },
+      "properties": {
+        "address": "7400 ASHMOLE LN",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3426224,
+          29.7512956
+        ]
+      },
+      "properties": {
+        "address": "3100 GARROW ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3291912,
+          29.7337066
+        ]
+      },
+      "properties": {
+        "address": "1600 MARLIN ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3802347,
+          29.7162666
+        ]
+      },
+      "properties": {
+        "address": "3000 MACGREGOR WAY",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.210416,
+          29.61923
+        ]
+      },
+      "properties": {
+        "address": "11700 FUQUA ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34425019999999,
+          29.7042721
+        ]
+      },
+      "properties": {
+        "address": "4700 ARVILLA LN",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3488816,
+          29.6597637
+        ]
+      },
+      "properties": {
+        "address": "5000 MALLOW ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4051784,
+          29.6979252
+        ]
+      },
+      "properties": {
+        "address": "7700 GREENBRIAR DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.488891,
+          29.7091367
+        ]
+      },
+      "properties": {
+        "address": "6100 CLAREWOOD DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5232162,
+          29.6673754
+        ]
+      },
+      "properties": {
+        "address": "8300 TWIN HILLS DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.32088010000001,
+          29.6662197
+        ]
+      },
+      "properties": {
+        "address": "6100 BELLFORT AVE",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4789936,
+          29.7380536
+        ]
+      },
+      "properties": {
+        "address": "5700 WESTHEIMER RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4917294,
+          29.7261335
+        ]
+      },
+      "properties": {
+        "address": "6300 WINDSWEPT LN",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5514249,
+          29.6854603
+        ]
+      },
+      "properties": {
+        "address": "10100 CLUB CREEK DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.53830649999999,
+          29.77586569999999
+        ]
+      },
+      "properties": {
+        "address": "800 STREY LN",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4737383,
+          29.88074869999999
+        ]
+      },
+      "properties": {
+        "address": "7900 ANTOINE DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.42578309999999,
+          29.9632045
+        ]
+      },
+      "properties": {
+        "address": "13500 NORTHBOROUGH DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4372944,
+          29.956412
+        ]
+      },
+      "properties": {
+        "address": "700 ELLA CREEK DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33937379999999,
+          29.779729
+        ]
+      },
+      "properties": {
+        "address": "3000 SUMPTER ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.25924920000001,
+          29.8543575
+        ]
+      },
+      "properties": {
+        "address": "9000 STERLINGSHIRE ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3040824,
+          29.862536
+        ]
+      },
+      "properties": {
+        "address": "10400 BRETTON DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5467408,
+          29.96146569999999
+        ]
+      },
+      "properties": {
+        "address": "7900 FM 1960 BYP",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3654365,
+          29.6597891
+        ]
+      },
+      "properties": {
+        "address": "4200 MALLOW ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3639202,
+          29.6881907
+        ]
+      },
+      "properties": {
+        "address": "7100 SCOTT ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3472997,
+          29.640266
+        ]
+      },
+      "properties": {
+        "address": "8100 PANAY DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4956653,
+          29.7079305
+        ]
+      },
+      "properties": {
+        "address": "6600 DUNLAP ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5573271,
+          29.6894868
+        ]
+      },
+      "properties": {
+        "address": "10200 BEECHNUT ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5831118,
+          29.6750627
+        ]
+      },
+      "properties": {
+        "address": "11600 BISSONNET ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5390511,
+          29.7136354
+        ]
+      },
+      "properties": {
+        "address": "8700 TOWN PARK DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4833592,
+          29.8335294
+        ]
+      },
+      "properties": {
+        "address": "2600 NORTH FWY",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.41595629999999,
+          29.7798794
+        ]
+      },
+      "properties": {
+        "address": "5300 DARLING ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.45610429999999,
+          29.81998
+        ]
+      },
+      "properties": {
+        "address": "4500 TULSA ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4585725,
+          29.8015657
+        ]
+      },
+      "properties": {
+        "address": "1800 MANGUM ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5448265,
+          29.7909282
+        ]
+      },
+      "properties": {
+        "address": "10100 WESTVIEW DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38326269999999,
+          29.8699826
+        ]
+      },
+      "properties": {
+        "address": "200 LITTLE YORK RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.41810149999999,
+          29.8567485
+        ]
+      },
+      "properties": {
+        "address": "6300 DE PRIEST ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2667678,
+          29.8499337
+        ]
+      },
+      "properties": {
+        "address": "900 TIDWELL RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.40487399999999,
+          29.915795
+        ]
+      },
+      "properties": {
+        "address": "11000 AIRLINE DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3552544,
+          29.8422044
+        ]
+      },
+      "properties": {
+        "address": "2500 FIRNAT ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2825707,
+          29.8239281
+        ]
+      },
+      "properties": {
+        "address": "7900 BETTY BOOP ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3064449,
+          29.8677523
+        ]
+      },
+      "properties": {
+        "address": "10600 WOLBROOK ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2959953,
+          29.87319279999999
+        ]
+      },
+      "properties": {
+        "address": "6300 TAUTENHAHN RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.39702229999999,
+          29.9377645
+        ]
+      },
+      "properties": {
+        "address": "400 NORTH SAM HOUSTON PKWY",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.46863139999999,
+          29.8853501
+        ]
+      },
+      "properties": {
+        "address": "8000 STREAMSIDE DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33220360000001,
+          29.7282262
+        ]
+      },
+      "properties": {
+        "address": "1400 MUNGER ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3715521,
+          29.7487608
+        ]
+      },
+      "properties": {
+        "address": "2100 MAIN ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3555737,
+          29.6598294
+        ]
+      },
+      "properties": {
+        "address": "9100 CULLEN BLVD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.40193839999999,
+          29.9313246
+        ]
+      },
+      "properties": {
+        "address": "200 ALDINE BENDER RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38243829999999,
+          29.7476455
+        ]
+      },
+      "properties": {
+        "address": "200 TUAM ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.61695279999999,
+          29.7428058
+        ]
+      },
+      "properties": {
+        "address": "2200 AVENIDA LA QUINTA ST",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3977807,
+          29.8668487
+        ]
+      },
+      "properties": {
+        "address": "7300 NORTHLINE DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3692688,
+          29.8444645
+        ]
+      },
+      "properties": {
+        "address": "500 TIDWELL RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.44837389999999,
+          29.8824251
+        ]
+      },
+      "properties": {
+        "address": "9600 MONTGOMERY RD",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38887319999999,
+          29.9482763
+        ]
+      },
+      "properties": {
+        "address": "800 SEMINAR DR",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.32635529999999,
+          29.76994899999999
+        ]
+      },
+      "properties": {
+        "address": "4400 BUCK ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.31298319999999,
+          29.8011634
+        ]
+      },
+      "properties": {
+        "address": "4500 HOFFMAN ",
+        "mag": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33624669999999,
+          29.8345335
+        ]
+      },
+      "properties": {
+        "address": "3300 SADLER ",
+        "mag": "3"
+      }
+    }
+  ]
+}

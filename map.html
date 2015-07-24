@@ -17,7 +17,7 @@
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
-        map.data.loadGeoJson("/houston_crime/crime_points.json");
+        map.data.loadGeoJson("/houston_crime/crime_points_Aggravated_Assault.json");
 
         map.data.setStyle(function(feature) {
           var magnitude = feature.getProperty('mag');
